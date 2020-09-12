@@ -201,30 +201,37 @@
     .section-fourth, .section-fourth-1{
         padding: 0px 100px 0px 100px;
     }
-     .card .card-body i{
-    
+     .card .card-body .social-media-about .fa{
+    margin: 2px 20px 2px 20px;
     align-self: flex-end;
     }
     .section-fourth .carousel{
         height: auto;
     }
     .section-fourth .carousel-item{
-        height: 40vh;
+        height: auto;
     }
     .section-fourth .card{
-        height: 300px;
+        height: auto;
         box-shadow: 0px 4px 4px 4px #444040;
     }
     .slider{
         margin: 10px 0px 50px 0px;
+        padding: 10px 0px 50px 0px;
         height:100px;
-        background: gray;
+        /* background: gray; */
     }
     
     .slider1{
         margin: 10px 0px 50px 0px;
+        padding: 10px 0px 50px 0px;
         height:100px;
-        background: yellow;
+        /* background: yellow; */
+    }
+    .section-fourth-1 .social-media-icons .fa{
+        margin: 0px 100px 0px 90px;
+        font-size: 40px;
+        color: #000000;
     }
     .second-footer{
         width: 100%;
@@ -328,6 +335,9 @@
     top: 0;
     z-index: 2;
 }
+.navbar-toggler .fa{
+    color: #ffffff;
+}
 .nav-brand img{
     margin: 20px;
     padding: 10px;
@@ -335,6 +345,7 @@
 }
 
 .navbar-nav .nav-link{
+    text-align: center;
     color: #000000;
     font-weight: 700;
     margin: 20px;
@@ -365,6 +376,8 @@
 
 .top .carousel .carousel-item .carousel-caption{
     padding: 0px 0px 100px 0px;
+    margin: 200px 0px -100px 0px;
+
 }
 
 .top .carousel .carousel-item .carousel-caption .btn{
@@ -387,17 +400,17 @@
 
 
 .second-section .btn-group{
-    margin: 30px;
+    margin: 10px;
 }
 
 .second-section .btn-group .bd-3{
     
-    border: 4px solid #000000;
+    /* border: 4px solid #000000; */
     /* border-radius: 10em; */
 }
 .second-section .btn-group .btn-lg{
     /* width: 150px; */
-    padding: 20px;
+    padding: 0px;
 }
 
 .second-section .row{
@@ -449,13 +462,13 @@
 
 .section-third .diagonal-box .content  p{
     font-size: 20px;
-    padding: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
 }
 
 .section-third .row .col-sm{
     width: 300px;
     height: auto;
-    margin: 20px;
+    margin: 10px 0px 10px 0px;
     background: rgb(255, 255, 255);
     padding: 5px;
     /* border-radius: 1em; */
@@ -516,7 +529,7 @@ color: cyan;
     /* font-size: 20px; */
 }
 .section-fourth{
-    background: aqua;
+    /* background: aqua; */
     height: auto;
     /* margin: 100px; */
     /* background: #444040; */
@@ -525,32 +538,42 @@ color: cyan;
 .section-fourth, .section-fourth-1{
     padding: 20px;
 }
- .card .card-body i{
-
-align-self: flex-end;
+ .card .card-body .social-media-about a{
+     align-self:center;
+color: #000000;
+margin: 0px 20px 1px 20px;
+/* align-self: flex-end; */
 }
 .section-fourth .carousel{
     height: auto;
 }
 .section-fourth .carousel-item{
     /* margin: 10px 40px 10px 10px; */
-    /* height: 40vh; */
+    height: 100%;
 }
 .section-fourth .card{
     margin: 20px;
-    height:auto;
-    box-shadow: 0px 4px 4px 4px #444040;
+    /* height:auto; */
+    box-shadow: 0px 4px 4px 0px #444040;
+}
+
+.section-fourth-1 .social-media-icons .fa{
+    margin: 0px 5px 0px 0px;
+    font-size: 15px;
+    color: #000000;
 }
 .slider{
-    margin: 10px 0px 50px 0px;
+    margin: 5px 0px 50px 0px;
+    padding: 5px 0px 50px 0px;
     height:100px;
-    background: gray;
+    /* background: gray; */
 }
 
 .slider1{
-    margin: 10px 0px 50px 0px;
-    height:100px;
-    background: yellow;
+    margin: 5px 0px 50px 0px;
+    padding: 15px 0px 50px 0px;
+    height:100px auto;
+    /* background: yellow; */
 }
 .second-footer{
     width: 100%;
@@ -564,7 +587,7 @@ align-self: flex-end;
 form{
     width: 100%;
     height: auto;
-    padding: 50px 50px 50px 50px;
+    padding: 50px 50px 50px 0px;
     margin: 0px 0px 50px 0px;
 
     background: #ffffff;
@@ -595,9 +618,9 @@ form button{
 }
 
   .row  #header{
-      font-family: fantasy;
+      font-family: -apple-system;
       font-style: italic;
-    padding: 200px 0px 200px 0px;
+    padding: 100px 0px 20px 20px;
 }
 
 .footer{
@@ -631,7 +654,7 @@ form button{
 
 #colUl ul{
     font-size: 20px;
-    margin: 30px;
+    margin: 30px 10px 30px 0px;
 }
 }
 
