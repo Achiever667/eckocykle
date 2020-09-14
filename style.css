@@ -136,7 +136,7 @@
     }
     
     .section-third .row .col-sm{
-        width: 300px;
+        width: 200px;
         height: auto;
         margin: 20px;
         background: rgb(255, 255, 255);
@@ -448,6 +448,7 @@
 
 .section-third{
     /* position: relative; */
+    margin-top:100px;
     height: auto;
 }
 .diagonal-box {
